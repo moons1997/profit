@@ -1,0 +1,31 @@
+.header {
+  padding: 15px 0;
+  &__logo {
+    height: 118px;
+    width: 118px;
+    img {
+      width: 100%;
+    }
+  }
+  .navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    &_item {
+      a {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        transition: all 0.3s ease-out;
+        &:hover,
+        &.active {
+          color: rgb(14, 151, 233);
+        }
+      }
+    }
+  }
+}

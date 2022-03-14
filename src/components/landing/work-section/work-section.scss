@@ -1,0 +1,38 @@
+.work-section {
+  margin-bottom: 70px;
+  .section-title {
+    margin-bottom: 80px;
+  }
+  &__content {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.52%,
+      rgba(255, 255, 255, 0.024) 104.35%
+    );
+    backdrop-filter: blur(120px);
+    border-radius: 30px;
+    padding: 70px 70px 0;
+    outline: 1px solid #cfcfcf;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 70px;
+  }
+  &__icon {
+    max-width: 25%;
+    width: 100%;
+    img {
+      max-width: 85px;
+    }
+  }
+  &__description {
+    max-width: 75%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+}

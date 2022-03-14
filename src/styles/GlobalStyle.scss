@@ -1,0 +1,46 @@
+@import url("../assets/fonts/gilroy/stylesheet.css");
+* {
+  font-family: "Gilroy";
+  margin: 0;
+  padding: 0;
+}
+.content {
+  // background: linear-gradient(180deg, #131a15 0%, #090b3a 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    162deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(75, 44, 177, 1) 100%
+  );
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.page-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.sub-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+  color: #ffffff;
+  text-align: center;
+}

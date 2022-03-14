@@ -1,0 +1,106 @@
+.consultation {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  .section-title {
+    text-align: left;
+    margin-bottom: 47px;
+  }
+  &__content {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.79%,
+      rgba(255, 255, 255, 0.024) 123.08%
+    );
+    backdrop-filter: blur(120px);
+    border-radius: 30px;
+    outline: 1px solid #cfcfcf;
+  }
+
+  &__description {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__left {
+    padding: 35px 30px 70px 105px;
+  }
+  &__right {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) -1.79%,
+        rgba(255, 255, 255, 0.024) 123.08%
+      ),
+      #000000;
+    backdrop-filter: blur(120px);
+    border-radius: 30px;
+    padding: 40px 30px;
+    position: relative;
+    &-title {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 50px;
+      color: #ffffff;
+    }
+    &-subtitle {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+    &-button {
+      button {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        background: #ffffff;
+        border-radius: 80px;
+        width: 90%;
+        border: none;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        height: 70px;
+      }
+      &.success {
+        button {
+          color: #219653;
+        }
+      }
+    }
+    &-success {
+      text-align: center;
+      img {
+        max-width: 75px;
+
+        width: 100%;
+      }
+    }
+  }
+  .form {
+    &__item {
+      margin-bottom: 15px;
+      input {
+        padding: 25px 40px;
+        border-radius: 80px;
+        &::placeholder {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-transform: uppercase;
+          font-feature-settings: "pnum" on, "lnum" on;
+          color: #808080;
+        }
+      }
+    }
+  }
+}

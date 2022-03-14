@@ -1,0 +1,17 @@
+.footer {
+  padding: 80px 0 105px;
+  background: linear-gradient(180deg, #131a15 0%, #090b3a 100%);
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+}

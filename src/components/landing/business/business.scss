@@ -1,0 +1,52 @@
+.business {
+  .section-title {
+    margin-bottom: 70px;
+    span {
+      display: inline-block;
+      position: relative;
+      z-index: 100;
+      &::after {
+        width: 105%;
+        height: 105%;
+        position: absolute;
+        content: "";
+        top: 0;
+        left: -2.5%;
+        z-index: -1;
+        background-color: #000;
+        padding: 10px;
+        border-radius: 20px;
+      }
+    }
+  }
+  &__item {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.79%,
+      rgba(255, 255, 255, 0.024) 123.08%
+    );
+    backdrop-filter: blur(120px);
+    border-radius: 30px;
+    padding: 55px 25px 55px 45px;
+    max-height: 160px;
+    height: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    outline: 1px solid #cfcfcf;
+    &-icon {
+      max-width: 50px;
+      width: 100%;
+      position: absolute;
+      top: -10%;
+      left: 0;
+    }
+    &-title {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+  }
+}
